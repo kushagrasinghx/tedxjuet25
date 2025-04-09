@@ -1,19 +1,23 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './components/Navbar'
+import React from "react";
+import './App.css';
+import Navbar from './components/Navbar';
 import SplitText from "./components/SplitText";
-
+import HeroSubtitle from "./components/HeroSubtitle";
+import CircularText from './components/CircularText';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Navbar />
       <main>
         <div className="hero-section">
-          <div className="hero-image"></div>
-          <div className="hero-content">
+          <CircularText
+            text="2025*JUET*X*TED*"
+            onHover="speedUp"
+            spinDuration={20}
+            className="circular-text"
+          />
+          <div className="title-subtitle">
             <SplitText
               text="RESONANCE."
               className="hero-title"
@@ -24,12 +28,13 @@ function App() {
               threshold={0.2}
               rootMargin="-50px"
             />
-            <div className="hero-subtitle">Ideas That Echo Impact That Lasts</div>
+            <HeroSubtitle />
           </div>
         </div>
+        <div className="section1"></div>
       </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

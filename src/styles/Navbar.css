@@ -4,9 +4,9 @@
     align-items: center;
     height: 70px;
     padding: 0 8%;
-    background-color: #1a1a1a;
+    background-color: #0B0B0B;
     color: white;
-    position: relative;
+    position: fixed;
     z-index: 10;
   }
   

@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import SplitText from "./components/SplitText";
 import HeroSubtitle from "./components/HeroSubtitle";
-import CircularText from './components/CircularText';
+import Threads from "./components/Threads";
 
 function App() {
   return (
@@ -11,12 +11,14 @@ function App() {
       <Navbar />
       <main>
         <div className="hero-section">
-          <CircularText
-            text="2025*JUET*X*TED*"
-            onHover="speedUp"
-            spinDuration={20}
-            className="circular-text"
+          <div className="threads">
+          <Threads
+            amplitude={1}
+            distance={0}
+            enableMouseInteraction={true}
           />
+          </div>
+          
           <div className="title-subtitle">
             <SplitText
               text="RESONANCE."
@@ -29,6 +31,17 @@ function App() {
               rootMargin="-50px"
             />
             <HeroSubtitle />
+            <div className="hero-links">
+              <button className="hero-btn">Get Passes!</button>
+              <div className="link-list"><a href="https://www.google.com">Contact Us</a></div>
+              <div className="link-list"><a href="https://www.google.com">Sponsorship Brochure</a></div>
+              <div className="link-list"><a href="https://www.google.com">Our Team</a></div>
+            </div>
+            <div className="address">
+              <div className="line1">Jaypee University of Engineering & Technology,</div>
+              <div className="line1">Guna, Madhya Pradesh - 473226.</div>
+            </div>
+            <div className="schedule">3rd May 2025 - 03 PM Onwards</div>
           </div>
         </div>
         <div className="section1"></div>

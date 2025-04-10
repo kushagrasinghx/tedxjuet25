@@ -3,7 +3,7 @@ import "../App.css";
 
 const HeroSubtitle = () => {
   const fullText =
-    "Join ten inspiring speakers and over a hundred guests — including innovators, entrepreneurs, and thought leaders from India — for a day of ideas worth spreading.";
+    "Join x inspiring speakers and over a hundred guests — including innovators, entrepreneurs, and thought leaders from India — for a day of ideas worth spreading.";
 
   const words = fullText.split(" ");
   const [displayedWords, setDisplayedWords] = useState([]);

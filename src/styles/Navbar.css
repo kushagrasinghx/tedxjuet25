@@ -4,10 +4,13 @@
     align-items: center;
     height: 70px;
     padding: 0 8%;
-    background-color: #0B0B0B;
+    background-color: #0b0b0b9f;
     color: white;
     position: fixed;
     z-index: 10;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
   
   .navbar__logo {

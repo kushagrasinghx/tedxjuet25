@@ -1,0 +1,33 @@
+.profile-card {
+    width: 100%;
+    background-color: #1b1b1b;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left; /* changed from center to left */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .profile-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    display: block;
+    filter: grayscale(100%);
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .profile-name {
+    font-size: 1.1rem;
+    margin: 8px 0 2px;
+  }
+  
+  .profile-occupation {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  

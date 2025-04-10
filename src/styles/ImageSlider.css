@@ -3,8 +3,6 @@
     max-width: 1200px;
     aspect-ratio: 16 / 9;
     /* overflow: hidden; */
-    border: 2px solid #00000010;
-    border-radius: 16px;
     margin: 0 auto;
     position: relative;
     display: flex;

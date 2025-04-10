@@ -17,7 +17,8 @@
   }
   
   .footer-left {
-    max-width: 400px;
+    max-width: 500px;
+    text-align: justify;
   }
   
   .footer-logo {
@@ -29,7 +30,7 @@
     font-size: 14px;
     color: #bbb;
     margin-top: 30px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
   }
   
   .footer-links {

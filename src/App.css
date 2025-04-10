@@ -25,31 +25,38 @@ main {
 
 .hero-title {
   font-family: 'Clash Display', sans-serif;
-  font-size: 60px;
+  font-size: 40px;
+  letter-spacing: 2px;
   font-weight: 600;
   color: white;
   text-align: left;
 }
 
 .hero-subtitle {
-  font-size: 18px;
+  font-size: 24px;
   color: white;
   text-align: justify;
   max-width: 500px;
+  min-height: 72px;
+  margin: 10px 0;
 }
 
 @media (max-width: 768px) {
-  .hero-image {
-    transform: scaleX(-1) translateX(0);
+  .hero-section {
+    height: auto;
+  }
+
+  .title-subtitle {
+    margin-top: 50px;
   }
 
   .hero-title {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.2;
   }
 
   .hero-subtitle {
-    font-size: 14px;
+    font-size: 20px;
     max-width: 100%;
   }
 }
@@ -71,13 +78,17 @@ main {
   }
 }
 
-.threads {
+.hero-background {
+  background-image: url('/assets/hero-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,9 +97,9 @@ main {
 }
 
 .address {
-  font-size: 14px;
+  font-size: 16px;
   color: rgb(136, 136, 136);
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .hero-links {
@@ -131,21 +142,21 @@ main {
 .schedule {
   font-family: 'Clash Display', sans-serif;
   letter-spacing: 0.5px;
-  margin-top: 20px;
-  font-size: 24px;
+  margin: 20px 0;
+  font-size: 28px;
 }
 
 @media (max-width: 768px) {
   .hero-btn {
     margin: 0;
   }
-  .hero-links {
+  /* .hero-links {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
     margin-bottom: 20px;
     margin-top: 100px;
-  }
+  } */
 }
 
 .section-light {

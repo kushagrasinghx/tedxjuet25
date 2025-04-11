@@ -1,46 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 @font-face {
+  font-family: 'Clash Display';
+  src: url('/src/assets/fonts/clashdisplay-extralight-webfont.woff2') format('woff2'),
+        url('/src/assets/fonts/clashdisplay-extralight-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: light;
+}
+
+@font-face {
+  font-family: 'Clash Display';
+  src: url('/src/assets/fonts/clashdisplay-light-webfont.woff2') format('woff2'),
+        url('/src/assets/fonts/clashdisplay-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: light;
+
+}
+
+@font-face {
+  font-family: 'Clash Display';
+  src: url('/src/assets/fonts/clashdisplay-regular-webfont.woff2') format('woff2'),
+        url('/src/assets/fonts/clashdisplay-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clash Display';
+  src: url('/src/assets/fonts/clashdisplay-medium-webfont.woff2') format('woff2'),
+        url('/src/assets/fonts/clashdisplay-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'Clash Display';
+  src: url('/src/assets/fonts/clashdisplay-semibold-webfont.woff2') format('woff2'),
+        url('/src/assets/fonts/clashdisplay-semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: medium;
+}
+
+@font-face {
     font-family: 'Clash Display';
-    src: url('../fonts/ClashDisplay-ExtraLight.otf') format('opentype');
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Clash Display';
-    src: url('../fonts/ClashDisplay-Light.otf') format('opentype');
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Clash Display';
-    src: url('../fonts/ClashDisplay-Regular.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Clash Display';
-    src: url('../fonts/ClashDisplay-Medium.otf') format('opentype');
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Clash Display';
-    src: url('../fonts/ClashDisplay-SemiBold.otf') format('opentype');
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Clash Display';
-    src: url('../fonts/ClashDisplay-Bold.otf') format('opentype');
+    src: url('/src/assets/fonts/clashdisplay-bold-webfont.woff2') format('woff2'),
+         url('/src/assets/fonts/clashdisplay-bold-webfont.woff') format('woff');
     font-weight: 700;
-    font-style: normal;
-  }
+    font-style: bold;
+}
 
 * {
   margin: 0;

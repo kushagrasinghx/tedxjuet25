@@ -37,7 +37,7 @@ main {
   color: white;
   text-align: justify;
   max-width: 500px;
-  min-height: 72px;
+  min-height: 124px;
   margin: 10px 0;
 }
 
@@ -169,6 +169,19 @@ main {
   background-color: #fdfdfb;
   color: black;
   padding: 100px 8%;
+  gap: 20px;
+}
+
+.section-light-small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: #fdfdfb;
+  color: black;
+  padding: 50px 8%;
   gap: 20px;
 }
 

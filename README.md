@@ -1,12 +1,21 @@
-# React + Vite
+# TEDxJUET 2025 – Official Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for the official TEDxJUET 2025 website, built using React and Vite. The site is designed to showcase event details, speaker lineups, and more for the TEDxJUET community.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Framework:** React
+- **Build Tool:** Vite
+- **Styling:** CSS / Tailwind
+- **Deployment:** [Visit our website](https://tedxjuet.com)
 
-## Expanding the ESLint configuration
+## 🧾 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Modern, responsive design
+- Speaker and event info pages
+- Countdown to event day
+- Contact & registration section (if applicable)
+
+## 📄 License
+
+This project is open-source and available for educational purposes only. It may not be copied, redistributed, or used for any commercial purposes.

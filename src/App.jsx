@@ -10,10 +10,11 @@ import AnimatedTextContentSmall from './components/AnimatedTextContentSmall';
 import ProfileCard from "./components/ProfileCard";
 import Footer from "./components/Footer";
 import ImageSlider from "./components/ImageSlider";
+import { useNavigate } from "react-router-dom";
 
 function App() {
 
-  // Ssmooth Scroll Effect
+  // Smooth Scroll Effect
   useEffect(() => {
     const lenis = new Lenis({
       duration: 1.2,
